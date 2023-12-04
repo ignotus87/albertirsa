@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Albertirsa.info</title>
+    <script>
+
+        var jsons = [];
+
+    </script>
+    <style>
+        h1, h2 {
+            text-align: center;
+            font-family: Arial;
+        }
+
+		.main-container {
+			display: grid;
+			grid-template-columns: 0.8fr;
+            justify-content: center;
+		}
+	
+        .main-container {
+            text-align: center;
+        }
+
+		@media (min-width: 768px) {
+            /*For mobile phones */
+            .main-container {
+				dispay: inline-block;
+                grid-template-columns: 0.5fr;
+            }
+        }
+
+        body {
+            /*background-image: url(Images/background.jpg);*/
+            display: flex;
+            min-height: 98vh;
+            flex-direction: column;
+            font-family: Arial;
+        }
+
+        .footer {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        #app {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+<div id="app">
+
+    <h1>Albertirsa.info</h1>
+
+    <div class="main-container">
+        <h2>Közüzemi hibák bejelentése</h2>
+        
+		<a href="https://www.mvmnext.hu/aram/kozvilagitasi_hibabejelentes/?fbclid=IwAR1p8sW86fQ7krtLhLWmL3KOe7TLq-KwITIBDU9sgKoCe4Svdm0u1tJ5xLs" target="_blank">Közvilágítás hiba bejelentése - MVM</a>
+
+		<h2>Gyermekorvosok</h2>
+		
+		<h2>Felnőtt háziorvosi ellátás<h2>
+		
+		<h2>Hulladékszállítási naptár<h2>
+
+        <h2>Kapcsolat</h2>
+        <a href="mailto:hufishquiz@gmail.com">Írj e-mailt</a>
+    </div>
+        
+</div>
+
+<div class="footer">
+    Background by <a href="https://www.freepik.com/free-vector/school-fishes-background-with-deep-sea_2235607.htm#query=fish%20background&position=10&from_view=keyword&track=ais" target="_blank">Freepik</a>
+</div>
+
+<script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
