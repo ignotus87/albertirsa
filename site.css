@@ -11,14 +11,25 @@
     font-size: 15px;
 }
 
-    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-    .active, .collapsible:hover {
-        background-color: #ccc;
-    }
+/* Level 2 */
+.level-2 {
+	padding-left: 10px;
+}
+
+.collapsible:hover, .collapsible-2:hover {
+	background-color: #ccc;
+}
 
 /* Style the collapsible content.  */
 .content {
     margin: 0;
     padding: 0;
     background-color: #e1e1e1;
+}
+
+iframe {
+  height: 600px;
+  width: 1000px;
+  resize: both;
+  overflow: auto;
 }
