@@ -107,5 +107,14 @@ $(document).ready(function(){
 				time: 3000
 			});	
 		});
+		
+	 //6. open image on new tab
+	  $(window).on('load', function(){	
+		  $('.open-image-new-tab').click(function() {
+			  let url = this.src;
+			  window.open(url,'_blank');
+			  window.open(url);
+		  });
+	  });
 
 });

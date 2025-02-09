@@ -973,3 +973,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     padding: 0;
     background-color: #e1e1e1;
 }
+
+.open-image-new-tab {
+	cursor: pointer;
+}
